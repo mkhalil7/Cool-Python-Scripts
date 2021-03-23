@@ -1,0 +1,15 @@
+glossary
+    title
+    GlossDiv
+        title
+        GlossList
+            GlossEntry
+                ID
+                SortAs
+                GlossTerm
+                Acronym
+                Abbrev
+                GlossDef
+                    para
+                    GlossSeeAlso
+                GlossSee
