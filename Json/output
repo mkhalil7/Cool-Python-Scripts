@@ -1,15 +1,46 @@
-glossary
-    title
-    GlossDiv
-        title
-        GlossList
-            GlossEntry
-                ID
-                SortAs
-                GlossTerm
-                Acronym
-                Abbrev
-                GlossDef
-                    para
-                    GlossSeeAlso
-                GlossSee
+id : 05e83192-aa90-40b9-ab39-4707abc8dc2b
+type : creditReporting
+timestampUtc : 2021-03-17T08:16:36Z
+version : 1.0
+payload:
+    brinksDepositId : 67cc960d-fc41-49ab-80df-ca6e9e03dd16
+    bagLabel : EU0000002653
+    depositType : Retail
+    depositStc : 350.0
+    depositCashStc : 350.0
+    depositCheckStc : 0.0
+    depositSubType : BagDeposit
+    depositDateTimeUtc : 2021-03-12T13:58:55Z
+    brinksLocationInfo:
+        locationId : 20054819
+        locationName : DemoLocationBert
+    postedAmount : 350.0
+    deviceSerialNumber : 7a6446fe-76ba-408f-8783-b0cc3b732e24
+    deviceName : BBOX Demo Joseph
+    receivedDateTimeUtc : 2021-03-17T08:16:37.915Z
+    brinksBoxId : b0cc3b732e24
+    externalReferenceId : 
+    deviceType : Brink's Box Standard
+    depositReceiveMethod : DeviceRFID
+    thirdPartyInfo:
+        id : 20115
+        depositId : 11321265-9fc7-4ca1-adb5-2f47b2cd37cb
+        name : DemoLocationBert
+        expectedPickupDate : 2021-03-12T13:58:55Z
+        createdBy:
+            fullName : Test Belgium
+            loginId : test.belgium
+            email : test.belgium@outlook.com
+    status : Received
+    mpsBranchNumber : 
+    mpsBranchName : 
+    masterCustomerName : DemoBert
+    masterCustomerId : 2000009950
+    masterLocationId : 20054819
+    messageSubType : ProvisionalCredit
+    itemType : 24SevenBag
+    denomDetails : [{'code': 'EUR', 'type': 'CURR', 'value': '00000500', 'multiples': '', 'amount': 50.0, 'count': 10, 'exchangeRate': 1.0}, {'code': 'EUR', 'type': 'CURR', 'value': '00001000', 'multiples': '', 'amount': 50.0, 'count': 5, 'exchangeRate': 1.0}, {'code': 'EUR', 'type': 'CURR', 'value': '00005000', 'multiples': '', 'amount': 150.0, 'count': 3, 'exchangeRate': 1.0}, {'code': 'EUR', 'type': 'CURR', 'value': '00010000', 'multiples': '', 'amount': 100.0, 'count': 1, 'exchangeRate': 1.0}]
+recipient:
+    id : 5031
+    name : CustomerPortal-247SNOrderDeposit
+    countryCode : BEL
